@@ -27,9 +27,9 @@
 
 배달의 민족 서비스의 핵심 주체(Subject)와 행위(Behavior)는 다음과 같이 정의됩니다.
 
-- **주체(Subject/Source)**: 고객(User), 가맹점(Restaurant), 라이더(Rider), 메뉴(Menu)
-- **행위(Behavior)**: 주문(Order), 결제(Payment), 배달(Delivery), 리뷰(Review), 쿠폰 사용(Coupon Usage)
-- **대상(Object/Target)**: 음식(Food), 상품(Product)
+- 주체(Subject/Source): 고객(User), 가맹점(Restaurant), 라이더(Rider), 메뉴(Menu)
+- 행위(Behavior): 주문(Order), 결제(Payment), 배달(Delivery), 리뷰(Review), 쿠폰 사용(Coupon Usage)
+- 대상(Object/Target): 음식(Food), 상품(Product)
 
 ---
 
@@ -37,7 +37,7 @@
 
 DW(Data Warehouse) 시스템 구축 시, 원천 시스템(기간계 시스템)의 테이블 종류와 그 특성을 올바르게 파악하는 것이 중요합니다. 이는 시계열 구축 여부, 이력 테이블 설계 방식, ETL 전략 수립에 직접적인 영향을 미치기 때문입니다.
 
-아래는 관계형 DB 이론이나 솔루션 관점이 아닌 **업무(비즈니스) 관점**의 테이블 분류입니다.
+아래는 관계형 DB 이론이나 솔루션 관점이 아닌 업무(비즈니스) 관점의 테이블 분류입니다.
 
 ---
 
