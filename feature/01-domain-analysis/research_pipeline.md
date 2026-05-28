@@ -46,7 +46,7 @@ DW(Data Warehouse) 시스템 구축 시, 원천 시스템(기간계 시스템)�
 ### 4-1. 원장성 테이블 (Master Table)
 
 #### 개념 및 구성 형태
-업무의 핵심 개체(Entity)들로서, 주로 행위의 **주체(Subject/Source)**에 대한 정보를 담고 있는 테이블입니다. 부속된 다수의 자식 테이블(Child Table)과 이력 테이블(History Table)을 수반합니다.
+업무의 핵심 개체(Entity)들로서, 주로 행위의 주체(Subject/Source)에 대한 정보를 담고 있는 테이블입니다. 부속된 다수의 자식 테이블(Child Table)과 이력 테이블(History Table)을 수반합니다.
 
 #### 데이터 성격
 - **현재(최신) 상태 및 속성 정보**를 유지·관리
